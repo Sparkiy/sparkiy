@@ -6,16 +6,22 @@ See [wiki](https://github.com/Sparkiy/sparkiy-docs/wiki) pages for more details
 
 ## Project status
 
-Organization wide fundings 
+================
+**Organization wide fundings**
+
 [![GratiPay Tips](https://img.shields.io/gratipay/sparkiy.svg?style=flat-square)](https://gratipay.com/sparkiy/)
 [![Bountysource](https://www.bountysource.com/badge/team?team_id=54290&style=bounties_posted?style=flat-square)](https://www.bountysource.com/teams/sparkiycom/bounties?utm_source=Sparkiy&utm_medium=shield&utm_campaign=bounties_posted) 
 
-Feature specific fundings
+================
+**Feature specific fundings**
 
 | Project        |                  |
 | -------------- | ---------------- |
 | [Sparkiy Canvas](https://github.com/Sparkiy/sparkiy-canvas) | [![Bountysource](https://www.bountysource.com/badge/team?team_id=54295&style=bounties_posted)](https://www.bountysource.com/teams/sparkiy-canvas/bounties?utm_source=sparkiy-canvas&utm_medium=shield&utm_campaign=bounties_posted) |
 | [Sparkiy Editor](https://github.com/Sparkiy/sparkiy-editor) |  | 
+
+================
+**Builds**
 
 |                | master | beta | development | edge |
 | -------------- | ------ | ---- | ----------- | ---- |
