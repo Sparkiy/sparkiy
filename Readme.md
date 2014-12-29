@@ -1,4 +1,5 @@
 [![GratiPay Tips](https://img.shields.io/gratipay/sparkiy.svg?style=flat-square)](https://gratipay.com/sparkiy/)
+[![Bountysource](https://www.bountysource.com/badge/team?team_id=54290&style=bounties_posted?style=flat-square)](https://www.bountysource.com/teams/sparkiycom/bounties?utm_source=Sparkiy&utm_medium=shield&utm_campaign=bounties_posted)
 
 ### Sparkiy Documentation
 
