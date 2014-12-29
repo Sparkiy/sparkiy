@@ -1,10 +1,10 @@
-## Sparkiy
+# Sparkiy
 
 **The purpose of this repository is communicating issues/milestones to Sparkiy customers.**
 
 See [wiki](https://github.com/Sparkiy/sparkiy-docs/wiki) pages for more details
 
-### Project status
+## Project status
 
 **Organization wide fundings**
 
