@@ -4,9 +4,8 @@
 
 See [wiki](https://github.com/Sparkiy/sparkiy-docs/wiki) pages for more details
 
-#### Project status
+### Project status
 
-================
 **Organization wide fundings**
 
 [![GratiPay Tips](https://img.shields.io/gratipay/sparkiy.svg?style=flat-square)](https://gratipay.com/sparkiy/)
