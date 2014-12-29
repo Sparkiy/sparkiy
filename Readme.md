@@ -6,14 +6,14 @@ See [wiki](https://github.com/Sparkiy/sparkiy-docs/wiki) pages for more details
 
 ## Project status
 
-**Organization wide fundings**
+**Organization wide funding**
 
 *Use this to fund Sparkiy development*
 
 [![GratiPay Tips](https://img.shields.io/gratipay/sparkiy.svg?style=flat-square)](https://gratipay.com/sparkiy/)
 
 ================
-**Feature specific fundings**
+**Feature specific funding**
 
 *Use this to fund specific feature that you care about*
 
