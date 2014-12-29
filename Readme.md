@@ -17,7 +17,7 @@ See [wiki](https://github.com/Sparkiy/sparkiy-docs/wiki) pages for more details
 | Project        |                  |
 | -------------- | ---------------- |
 | [Sparkiy Canvas](https://github.com/Sparkiy/sparkiy-canvas) | [![Bountysource](https://www.bountysource.com/badge/team?team_id=54295&style=bounties_posted)](https://www.bountysource.com/teams/sparkiy-canvas/bounties?utm_source=sparkiy-canvas&utm_medium=shield&utm_campaign=bounties_posted) |
-| [Sparkiy Editor](https://github.com/Sparkiy/sparkiy-editor) |  | 
+| [Sparkiy Editor](https://github.com/Sparkiy/sparkiy-editor) | [![Bountysource](https://www.bountysource.com/badge/team?team_id=54297&style=bounties_posted)](https://www.bountysource.com/teams/sparkiy-editor/bounties?utm_source=sparkiy-editor&utm_medium=shield&utm_campaign=bounties_posted) | 
 
 ================
 **Builds**
