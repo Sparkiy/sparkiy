@@ -1,4 +1,3 @@
-[![Stories in Ready](https://badge.waffle.io/Sparkiy/sparkiy.png?label=ready&title=Ready)](https://waffle.io/Sparkiy/sparkiy)
 # Sparkiy
 
 **The purpose of this repository is communicating issues/milestones to Sparkiy customers.**
@@ -6,6 +5,8 @@
 See [wiki](https://github.com/Sparkiy/sparkiy-docs/wiki) pages for more details
 
 ## Project status
+
+[![Stories in Ready](https://badge.waffle.io/Sparkiy/sparkiy.png?label=ready&title=Tasks Ready)](https://waffle.io/Sparkiy/sparkiy)
 
 **Organization wide funding**
 
