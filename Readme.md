@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/Sparkiy/sparkiy.png?label=ready&title=Ready)](https://waffle.io/Sparkiy/sparkiy)
 # Sparkiy
 
 **The purpose of this repository is communicating issues/milestones to Sparkiy customers.**
