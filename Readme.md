@@ -6,8 +6,6 @@ See [wiki](https://github.com/Sparkiy/sparkiy-docs/wiki) pages for more details
 
 ## Project status
 
-[![Stories in Ready](https://badge.waffle.io/Sparkiy/sparkiy.png?label=ready&title=Tasks Ready)](https://waffle.io/Sparkiy/sparkiy)
-
 **Organization wide funding**
 
 *Use this to fund Sparkiy development*
