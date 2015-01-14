@@ -9,7 +9,7 @@ See [wiki](https://github.com/Sparkiy/sparkiy-docs/wiki) pages for more details
 | Name | Description |
 | ---- | ----------- |
 | [sparkiy](https://github.com/Sparkiy/sparkiy) | Sparkiy community support repository |
-| [sparkiy-client](https://github.com/Sparkiy/sparkiy-client) | Sparkiy clients for all platforms |
+| [sparkiy-client](https://github.com/Sparkiy/sparkiy-client) | Sparkiy client applications |
 | [sparkiy-canvas](https://github.com/Sparkiy/sparkiy-canvas) | Provides Direct2D and DirectWrite support for Sparkiy clients |
 | [sparkiy-editor](https://github.com/Sparkiy/sparkiy-editor) | Editor that Sparkiy uses in it's clients |
 | [sparkiy-projects](https://github.com/Sparkiy/sparkiy-projects) | Sparkiy projects that users submitted |
