@@ -18,28 +18,6 @@ See [wiki](https://github.com/Sparkiy/sparkiy-docs/wiki) pages for more details
 
 ## Project status
 
-**Organization wide funding**
-
-*Use this to fund Sparkiy development*
-
-[![GratiPay Tips](https://img.shields.io/gratipay/sparkiy.svg?style=flat-square)](https://gratipay.com/sparkiy/)
-
-================
-**Feature specific funding**
-
-*Use this to fund specific feature that you care about*
-
-| Project        |                  |
-| -------------- | ---------------- |
-| [sparkiy](https://github.com/Sparkiy/sparkiy) | [![Bountysource](https://www.bountysource.com/badge/team?team_id=54290&style=bounties_posted?style=flat-square)](https://www.bountysource.com/teams/sparkiycom/bounties?utm_source=Sparkiy&utm_medium=shield&utm_campaign=bounties_posted) |
-| [sparkiy-client](https://github.com/Sparkiy/sparkiy-client) | [![Bountysource](https://www.bountysource.com/badge/team?team_id=54298&style=bounties_posted)](https://www.bountysource.com/teams/sparkiy-client/bounties?utm_source=sparkiy-client&utm_medium=shield&utm_campaign=bounties_posted) | 
-| [sparkiy-canvas](https://github.com/Sparkiy/sparkiy-canvas) | [![Bountysource](https://www.bountysource.com/badge/team?team_id=54295&style=bounties_posted)](https://www.bountysource.com/teams/sparkiy-canvas/bounties?utm_source=sparkiy-canvas&utm_medium=shield&utm_campaign=bounties_posted) |
-| [sparkiy-editor](https://github.com/Sparkiy/sparkiy-editor) | [![Bountysource](https://www.bountysource.com/badge/team?team_id=54297&style=bounties_posted)](https://www.bountysource.com/teams/sparkiy-editor/bounties?utm_source=sparkiy-editor&utm_medium=shield&utm_campaign=bounties_posted) | 
-| [sparkiy-reference](https://github.com/Sparkiy/sparkiy-reference) | | 
-
-================
-**Builds**
-
 |                | master | beta | development | edge |
 | -------------- | ------ | ---- | ----------- | ---- |
 | [Client Windows](https://github.com/Sparkiy/sparkiy-client) | [![master build status](https://ci.appveyor.com/api/projects/status/gvxevc5yih5oodnn/branch/master?svg=true&pendingText=pending...&passingText=OK&failingText=failed)](https://ci.appveyor.com/project/AleksandarDev/sparkiy-client/branch/master) | [![beta build status](https://ci.appveyor.com/api/projects/status/gvxevc5yih5oodnn/branch/beta?svg=true&pendingText=pending...&passingText=OK&failingText=failed)](https://ci.appveyor.com/project/AleksandarDev/sparkiy-client/branch/beta) | [![development build status](https://ci.appveyor.com/api/projects/status/gvxevc5yih5oodnn/branch/development?svg=true&pendingText=pending...&passingText=OK&failingText=failed)](https://ci.appveyor.com/project/AleksandarDev/sparkiy-client/branch/development) | [![edge build status](https://ci.appveyor.com/api/projects/status/gvxevc5yih5oodnn/branch/edge?svg=true&pendingText=pending...&passingText=OK&failingText=failed)](https://ci.appveyor.com/project/AleksandarDev/sparkiy-client/branch/edge) |
