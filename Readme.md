@@ -4,6 +4,18 @@
 
 See [wiki](https://github.com/Sparkiy/sparkiy-docs/wiki) pages for more details
 
+## Repositories
+
+| Name | Description |
+| ---- | ----------- |
+| [sparkiy](https://github.com/Sparkiy/sparkiy) | Sparkiy community support repository |
+| [sparkiy-client](https://github.com/Sparkiy/sparkiy-client) | Sparkiy clients for all platforms |
+| [sparkiy-canvas](https://github.com/Sparkiy/sparkiy-canvas) | Provides Direct2D and DirectWrite support for Sparkiy clients |
+| [sparkiy-editor](https://github.com/Sparkiy/sparkiy-editor) | Editor that Sparkiy uses in it's clients |
+| [sparkiy-projects](https://github.com/Sparkiy/sparkiy-projects) | Sparkiy projects that users submitted |
+| [sparkiycms](https://github.com/Sparkiy/sparkiycms) | CMS for Sparkiy main website |
+| [sparkiy-reference](https://github.com/Sparkiy/sparkiy-reference) | Sparkiy API reference |
+
 ## Project status
 
 **Organization wide funding**
