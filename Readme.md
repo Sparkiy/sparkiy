@@ -19,10 +19,11 @@ See [wiki](https://github.com/Sparkiy/sparkiy-docs/wiki) pages for more details
 
 | Project        |                  |
 | -------------- | ---------------- |
-| Sparkiy | [![Bountysource](https://www.bountysource.com/badge/team?team_id=54290&style=bounties_posted?style=flat-square)](https://www.bountysource.com/teams/sparkiycom/bounties?utm_source=Sparkiy&utm_medium=shield&utm_campaign=bounties_posted) |
-| [Sparkiy Client](https://github.com/Sparkiy/sparkiy-client) | [![Bountysource](https://www.bountysource.com/badge/team?team_id=54298&style=bounties_posted)](https://www.bountysource.com/teams/sparkiy-client/bounties?utm_source=sparkiy-client&utm_medium=shield&utm_campaign=bounties_posted) | 
-| [Sparkiy Canvas](https://github.com/Sparkiy/sparkiy-canvas) | [![Bountysource](https://www.bountysource.com/badge/team?team_id=54295&style=bounties_posted)](https://www.bountysource.com/teams/sparkiy-canvas/bounties?utm_source=sparkiy-canvas&utm_medium=shield&utm_campaign=bounties_posted) |
-| [Sparkiy Editor](https://github.com/Sparkiy/sparkiy-editor) | [![Bountysource](https://www.bountysource.com/badge/team?team_id=54297&style=bounties_posted)](https://www.bountysource.com/teams/sparkiy-editor/bounties?utm_source=sparkiy-editor&utm_medium=shield&utm_campaign=bounties_posted) | 
+| [sparkiy](https://github.com/Sparkiy/sparkiy) | [![Bountysource](https://www.bountysource.com/badge/team?team_id=54290&style=bounties_posted?style=flat-square)](https://www.bountysource.com/teams/sparkiycom/bounties?utm_source=Sparkiy&utm_medium=shield&utm_campaign=bounties_posted) |
+| [sparkiy-client](https://github.com/Sparkiy/sparkiy-client) | [![Bountysource](https://www.bountysource.com/badge/team?team_id=54298&style=bounties_posted)](https://www.bountysource.com/teams/sparkiy-client/bounties?utm_source=sparkiy-client&utm_medium=shield&utm_campaign=bounties_posted) | 
+| [sparkiy-canvas](https://github.com/Sparkiy/sparkiy-canvas) | [![Bountysource](https://www.bountysource.com/badge/team?team_id=54295&style=bounties_posted)](https://www.bountysource.com/teams/sparkiy-canvas/bounties?utm_source=sparkiy-canvas&utm_medium=shield&utm_campaign=bounties_posted) |
+| [sparkiy-editor](https://github.com/Sparkiy/sparkiy-editor) | [![Bountysource](https://www.bountysource.com/badge/team?team_id=54297&style=bounties_posted)](https://www.bountysource.com/teams/sparkiy-editor/bounties?utm_source=sparkiy-editor&utm_medium=shield&utm_campaign=bounties_posted) | 
+| [sparkiy-reference](https://github.com/Sparkiy/sparkiy-reference) | | 
 
 ================
 **Builds**
