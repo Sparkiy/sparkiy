@@ -2,28 +2,33 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>A Brand New nanoc Site - <%= @item[:title] %></title>
-    <link rel="stylesheet" href="<%= @items['/stylesheet/'].path %>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= @item[:title] %></title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/flatui.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/sparkiysyntaxcolors.css">
+    <link rel="stylesheet" href="/css/codepanel.css">
 
     <!-- you don't need to keep this, but it's cool for stats! -->
     <meta name="generator" content="nanoc <%= Nanoc::VERSION %>">
   </head>
   <body>
-    <div id="main">
+
+    <%= render 'header' %>
+
+    <div class="container">
       <%= yield %>
     </div>
-    <div id="sidebar">
-      <h2>Documentation</h2>
-      <ul>
-        <li><a href="http://nanoc.ws/docs/">Documentation</a></li>
-        <li><a href="http://nanoc.ws/docs/tutorial/">Getting Started</a></li>
-      </ul>
-      <h2>Community</h2>
-      <ul>
-        <li><a href="http://groups.google.com/group/nanoc/">Discussion Group</a></li>
-        <li><a href="irc://chat.freenode.net/#nanoc">IRC Channel</a></li>
-        <li><a href="http://github.com/nanoc/nanoc/wiki/">Wiki</a></li>
-      </ul>
-    </div>
+
+    <script src="/js/html5shiv.js"></script>
+    <script src="/js/respond.js"></script>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/flatui.js"></script>
+    <script src="/js/highlightlua.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
   </body>
 </html>
