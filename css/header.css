@@ -1,3 +1,5 @@
+.navbar { margin: 0; }
+
 .navbar-inverse .navbar-nav>li>a.reference:hover,
 .navbar-inverse .navbar-nav>li>a.reference:focus {
   color: #2E9DC8;
