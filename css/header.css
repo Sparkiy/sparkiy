@@ -1,0 +1,35 @@
+.navbar-inverse .navbar-nav>li>a.reference:hover,
+.navbar-inverse .navbar-nav>li>a.reference:focus {
+  color: #2E9DC8;
+}
+
+.navbar-inverse .navbar-nav>.active>a.reference,
+.navbar-inverse .navbar-nav>.active>a.reference:hover,
+.navbar-inverse .navbar-nav>.active>a.reference:focus {
+  background-color: #2E9DC8;
+  color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a.community:hover,
+.navbar-inverse .navbar-nav>li>a.community:focus {
+  color: #92CA45;
+}
+
+.navbar-inverse .navbar-nav>.active>a.community,
+.navbar-inverse .navbar-nav>.active>a.community:hover,
+.navbar-inverse .navbar-nav>.active>a.community:focus {
+  background-color: #92CA45;
+  color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a.collaborate:hover,
+.navbar-inverse .navbar-nav>li>a.collaborate:focus {
+  color: #FF694E;
+}
+
+.navbar-inverse .navbar-nav>.active>a.collaborate,
+.navbar-inverse .navbar-nav>.active>a.collaborate:hover,
+.navbar-inverse .navbar-nav>.active>a.collaborate:focus {
+  background-color: #FF694E;
+  color: white;
+}
