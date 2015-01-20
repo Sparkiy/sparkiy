@@ -25,7 +25,6 @@ end
 
 compile '*' do
   if item[:extension] == 'md'
-    filter :codeexample
     filter :kramdown
     layout 'default'
   elsif item[:extension] == 'css' or item[:extension] == 'min.css'

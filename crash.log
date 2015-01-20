@@ -1,8 +1,8 @@
-Crashlog created at 2015-01-19 15:26:53 +0100
+Crashlog created at 2015-01-20 15:52:39 +0100
 
 ===== MESSAGE:
 
-NoMethodError: undefined method `render' for #<Nanoc::Context:0x00000003444f78>
+Nanoc::Errors::UnknownFilter: The requested filter, “codeexample”, does not exist.
 
 ===== COMPILATION STACK:
 
@@ -10,44 +10,39 @@ NoMethodError: undefined method `render' for #<Nanoc::Context:0x00000003444f78>
 
 ===== STACK TRACE:
 
-  0. layout /default/:20:in `get_binding'
-  1. C:/tools/ruby215/lib/ruby/2.1.0/erb.rb:850:in `eval'
-  2. C:/tools/ruby215/lib/ruby/2.1.0/erb.rb:850:in `result'
-  3. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/filters/erb.rb:33:in `run'
-  4. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/filter.rb:117:in `setup_and_run'
-  5. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/base/result_data/item_rep.rb:398:in `layout'
-  6. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/item_rep_proxy.rb:67:in `layout'
-  7. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/rule_context.rb:72:in `layout'
-  8. C:/Users/Aleksandar/Documents/GitHub/sparkiy/Rules:35:in `block in parse'
-  9. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/rule.rb:68:in `instance_eval'
-  10. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/rule.rb:68:in `apply_to'
-  11. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/compiler.rb:385:in `compile_rep'
-  12. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/compiler.rb:341:in `block in compile_reps'
-  13. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/compiler.rb:334:in `loop'
-  14. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/compiler.rb:334:in `compile_reps'
-  15. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/compiler.rb:87:in `run'
-  16. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/base/source_data/site.rb:57:in `compile'
-  17. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/cli/commands/compile.rb:383:in `block in run'
-  18. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/cli/commands/compile.rb:425:in `run_listeners_while'
-  19. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/cli/commands/compile.rb:382:in `run'
-  20. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/cli/command_runner.rb:12:in `block in call'
-  21. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/cli/error_handler.rb:72:in `handle_while'
-  22. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/cli/error_handler.rb:24:in `handle_while'
-  23. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/cli/command_runner.rb:11:in `call'
-  24. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/cri-2.6.1/lib/cri/command_dsl.rb:223:in `block in runner'
-  25. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/cri-2.6.1/lib/cri/command.rb:298:in `call'
-  26. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/cri-2.6.1/lib/cri/command.rb:298:in `run_this'
-  27. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/cri-2.6.1/lib/cri/command.rb:251:in `run'
-  28. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/cli/commands/nanoc.rb:39:in `block in define'
-  29. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/cri-2.6.1/lib/cri/command.rb:298:in `call'
-  30. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/cri-2.6.1/lib/cri/command.rb:298:in `run_this'
-  31. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/cri-2.6.1/lib/cri/command.rb:251:in `run'
-  32. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/cli.rb:58:in `block in run'
-  33. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/cli/error_handler.rb:72:in `handle_while'
-  34. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/cli/error_handler.rb:24:in `handle_while'
-  35. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/cli.rb:56:in `run'
-  36. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/bin/nanoc:25:in `<top (required)>'
-  37. C:/tools/ruby215/bin/nanoc:23:in `load'
+  0. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/base/result_data/item_rep.rb:316:in `filter'
+  1. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/item_rep_proxy.rb:45:in `filter'
+  2. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/rule_context.rb:59:in `filter'
+  3. C:/Users/Aleksandar/Documents/GitHub/sparkiy/Rules:28:in `block in parse'
+  4. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/rule.rb:68:in `instance_eval'
+  5. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/rule.rb:68:in `apply_to'
+  6. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/compiler.rb:385:in `compile_rep'
+  7. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/compiler.rb:341:in `block in compile_reps'
+  8. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/compiler.rb:334:in `loop'
+  9. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/compiler.rb:334:in `compile_reps'
+  10. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/base/compilation/compiler.rb:87:in `run'
+  11. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/base/source_data/site.rb:57:in `compile'
+  12. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/cli/commands/compile.rb:383:in `block in run'
+  13. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/cli/commands/compile.rb:425:in `run_listeners_while'
+  14. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/cli/commands/compile.rb:382:in `run'
+  15. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/cli/command_runner.rb:12:in `block in call'
+  16. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/cli/error_handler.rb:72:in `handle_while'
+  17. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/cli/error_handler.rb:24:in `handle_while'
+  18. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/cli/command_runner.rb:11:in `call'
+  19. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/cri-2.6.1/lib/cri/command_dsl.rb:223:in `block in runner'
+  20. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/cri-2.6.1/lib/cri/command.rb:298:in `call'
+  21. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/cri-2.6.1/lib/cri/command.rb:298:in `run_this'
+  22. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/cri-2.6.1/lib/cri/command.rb:251:in `run'
+  23. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/cli/commands/nanoc.rb:39:in `block in define'
+  24. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/cri-2.6.1/lib/cri/command.rb:298:in `call'
+  25. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/cri-2.6.1/lib/cri/command.rb:298:in `run_this'
+  26. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/cri-2.6.1/lib/cri/command.rb:251:in `run'
+  27. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/cli.rb:58:in `block in run'
+  28. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/cli/error_handler.rb:72:in `handle_while'
+  29. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/cli/error_handler.rb:24:in `handle_while'
+  30. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/lib/nanoc/cli.rb:56:in `run'
+  31. C:/tools/ruby215/lib/ruby/gems/2.1.0/gems/nanoc-3.7.5/bin/nanoc:25:in `<top (required)>'
+  32. C:/tools/ruby215/bin/nanoc:23:in `load'
 
 ===== VERSION INFORMATION:
 
