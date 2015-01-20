@@ -19,10 +19,14 @@ end
 compile '/CNAME/' do
 end
 
+compile '/helpers/header/*' do
+  filter :erb
+end
+
 compile '*' do
   if item[:extension] == 'md'
     filter :codeexample
-    filter :kramdown    
+    filter :kramdown
     layout 'default'
   elsif item[:extension] == 'css' or item[:extension] == 'min.css'
     # don’t filter stylesheets
