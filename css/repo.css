@@ -1,21 +1,21 @@
 .repo {
-  float: left;
-  height: 240px;
-  width: 230px;
-  border: 5px solid #eee;
-  padding: 10px;
+  background-color: #eff0f2;
+  border-radius: 6px;
+  padding: 14px;
   margin-bottom: 36px;
-  margin-right: 10px;
+  margin-top: 36px;
 }
 
 .repo .header {
   text-transform: uppercase;
   margin-bottom: 10px;
   display: block;
+  font-weight: 700;
 }
 
-.repo span {
+.repo p {
   display: block;
   height: 80px;
-  font-size: 12px;
+  margin-bottom: 33px;
+  font-size: 15px;
 }
