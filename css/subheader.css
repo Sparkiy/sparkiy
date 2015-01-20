@@ -1,0 +1,19 @@
+.subheader {
+  background-color: #FF694E;
+  height: 60px;
+  width: 100%;
+  color: white;
+
+  margin-bottom: 21px;
+}
+
+.subheader .container {
+  padding-left: 21px;
+  padding-right: 21px;
+}
+
+.subheader .container p {
+  font-weight: lighter;
+  line-height: 60px;
+  font-size: 22px;
+}
