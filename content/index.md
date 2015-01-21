@@ -5,7 +5,7 @@ title: Sparkiy Collaborate
 ##### Collaboration and Support repositories
 
 <div class="row">
-  <div class="col-xs-3">
+  <div class="col-xs-12 col-sm-6 col-md-3">
     <div class="repo">
       <a class="header" href="https://github.com/Sparkiy/sparkiy/">SPARKIY</a>
       <p>Sparkiy community support repository</p>
@@ -14,7 +14,7 @@ title: Sparkiy Collaborate
     </div>
   </div>
 
-  <div class="col-xs-3">
+  <div class="col-xs-12 col-sm-6 col-md-3">
     <div class="repo">
       <a class="header" href="https://github.com/Sparkiy/sparkiy-projects">SPARKIY PROJECTS</a>
       <p></p>
