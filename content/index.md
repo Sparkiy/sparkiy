@@ -27,7 +27,7 @@ title: Sparkiy Collaborate
 ##### Clients and Components repositories
 
 <div class="row">
-  <div class="col-xs-3">
+  <div class="col-xs-12 col-sm-6 col-md-3">
     <div class="repo">
       <a class="header" href="https://github.com/Sparkiy/sparkiy-client">SPARKIY CLIENT</a>
       <p>Sparkiy Windows and Windows Phone clients repository</p>
@@ -36,7 +36,7 @@ title: Sparkiy Collaborate
     </div>
   </div>
 
-  <div class="col-xs-3">
+  <div class="col-xs-12 col-sm-6 col-md-3">
     <div class="repo">
       <a class="header" href="https://github.com/Sparkiy/sparkiy-canvas">SPARKIY CANVAS</a>
       <p>Provides Direct2D and DirectWrite support for Sparkiy clients</p>
@@ -45,7 +45,7 @@ title: Sparkiy Collaborate
     </div>
   </div>
 
-  <div class="col-xs-3">
+  <div class="col-xs-12 col-sm-6 col-md-3">
     <div class="repo">
       <a class="header" href="https://github.com/Sparkiy/sparkiy-editor">SPARKIY EDITOR</a>
       <p></p>
@@ -58,7 +58,7 @@ title: Sparkiy Collaborate
 ##### Website repositories
 
 <div class="row">
-  <div class="col-xs-3">
+  <div class="col-xs-12 col-sm-6 col-md-3">
     <div class="repo">
       <a class="header" href="https://github.com/Sparkiy/sparkiycms">SPARKIY CMS</a>
       <p></p>
@@ -67,7 +67,7 @@ title: Sparkiy Collaborate
     </div>
   </div>
 
-  <div class="col-xs-3">
+  <div class="col-xs-12 col-sm-6 col-md-3">
     <div class="repo">
       <a class="header" href="https://github.com/Sparkiy/sparkiy-reference">SPARKIY REFERENCE</a>
       <p></p>
