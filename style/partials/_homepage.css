@@ -1,0 +1,100 @@
+/* line 4, content/style/partials/_homepage.scss */
+.homepage .hero {
+  position: relative;
+  color: white;
+  height: 800px;
+  background-color: #2F4750;
+}
+/* line 11, content/style/partials/_homepage.scss */
+.homepage .hero .image {
+  position: absolute;
+  top: 0;
+  bottom: 70px;
+  left: 0;
+  right: 0;
+  margin: auto auto;
+  max-width: 960px;
+  text-align: center;
+  background: url("/images/hero.png") no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+/* line 28, content/style/partials/_homepage.scss */
+.homepage .hero .more {
+  color: #558090;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+/* line 38, content/style/partials/_homepage.scss */
+.homepage .hero .more label {
+  display: block;
+}
+/* line 42, content/style/partials/_homepage.scss */
+.homepage .hero .more .icon {
+  font-size: 2em;
+  line-height: 30px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  display: inline-block;
+}
+/* line 58, content/style/partials/_homepage.scss */
+.homepage .details img {
+  width: 100%;
+  padding: 40px;
+}
+/* line 63, content/style/partials/_homepage.scss */
+.homepage .details section {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+/* line 64, content/style/partials/_homepage.scss */
+.homepage .details .lead.collaborate {
+  padding-top: 60px;
+  color: #FF694E;
+}
+/* line 65, content/style/partials/_homepage.scss */
+.homepage .details .lead.create {
+  text-align: right;
+  padding-top: 60px;
+  color: #2E9DC8;
+}
+/* line 66, content/style/partials/_homepage.scss */
+.homepage .details .lead.talk {
+  text-align: center;
+  color: #92CA45;
+}
+/* line 67, content/style/partials/_homepage.scss */
+.homepage .details .lead.disabled {
+  color: #cedde3;
+}
+/* line 69, content/style/partials/_homepage.scss */
+.homepage .details .blue {
+  color: #2E9DC8;
+}
+/* line 70, content/style/partials/_homepage.scss */
+.homepage .details .red {
+  color: #FF694E;
+}
+/* line 71, content/style/partials/_homepage.scss */
+.homepage .details .green {
+  color: #92CA45;
+}
+
+/* line 75, content/style/partials/_homepage.scss */
+.footer-banner {
+  background-color: #2F4750;
+  color: #8eb0bd;
+}
+/* line 79, content/style/partials/_homepage.scss */
+.footer-banner a {
+  color: #aec7d0;
+}
+/* line 83, content/style/partials/_homepage.scss */
+.footer-banner ul li {
+  border-top: 1px solid #426470;
+}

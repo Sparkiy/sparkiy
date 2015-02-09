@@ -1,0 +1,250 @@
+/* line 3, content/style/partials/_subheader.scss */
+body > .container {
+  padding-top: 83px;
+}
+
+/* line 5, content/style/partials/_subheader.scss */
+.subheader-container {
+  position: relative;
+}
+/* line 8, content/style/partials/_subheader.scss */
+.subheader-container .subheader {
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  position: absolute;
+  background-color: #2F4750;
+  height: 60px;
+  width: 100%;
+  color: white;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+  margin-bottom: 21px;
+}
+/* line 22, content/style/partials/_subheader.scss */
+.subheader-container .subheader.docked {
+  position: fixed;
+}
+/* line 26, content/style/partials/_subheader.scss */
+.subheader-container .subheader .container {
+  padding-left: 21px;
+  padding-right: 21px;
+}
+/* line 30, content/style/partials/_subheader.scss */
+.subheader-container .subheader .container ul.breadcrumbs {
+  padding: 0;
+}
+/* line 34, content/style/partials/_subheader.scss */
+.subheader-container .subheader .container p,
+.subheader-container .subheader .container .breadcrumbs li span,
+.subheader-container .subheader .container .breadcrumbs li a {
+  font-weight: lighter;
+  line-height: 60px;
+  font-size: 22px;
+  color: white;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  padding: 0 40px 0 20px;
+  vertical-align: middle;
+}
+/* line 49, content/style/partials/_subheader.scss */
+.subheader-container .subheader .container .breadcrumbs li span:after,
+.subheader-container .subheader .container .breadcrumbs li a:after {
+  content: '';
+  position: absolute;
+  right: 12px;
+  height: 20px;
+  width: 20px;
+  border-right: 1px #fff solid;
+  border-bottom: 1px #fff solid;
+  margin-top: 20px;
+  transform: rotate(-45deg);
+  transition: .1s;
+}
+/* line 63, content/style/partials/_subheader.scss */
+.subheader-container .subheader .container .breadcrumbs li:last-child span:after,
+.subheader-container .subheader .container .breadcrumbs li:last-child a:after {
+  border: none;
+}
+/* line 68, content/style/partials/_subheader.scss */
+.subheader-container .subheader .container .breadcrumbs li a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+/* line 72, content/style/partials/_subheader.scss */
+.subheader-container .subheader .container .breadcrumbs li:first-child span,
+.subheader-container .subheader .container .breadcrumbs li:first-child a {
+  margin-left: -20px;
+}
+/* line 80, content/style/partials/_subheader.scss */
+.subheader-container.reference .subheader {
+  background-color: #2E9DC8;
+}
+/* line 84, content/style/partials/_subheader.scss */
+.subheader-container.talk .subheader {
+  background-color: #92CA45;
+}
+/* line 88, content/style/partials/_subheader.scss */
+.subheader-container.collaborate .subheader {
+  background-color: #FF694E;
+}
+
+/* line 4, content/style/partials/_homepage.scss */
+.homepage .hero {
+  position: relative;
+  color: white;
+  height: 800px;
+  background-color: #2F4750;
+}
+/* line 11, content/style/partials/_homepage.scss */
+.homepage .hero .image {
+  position: absolute;
+  top: 0;
+  bottom: 70px;
+  left: 0;
+  right: 0;
+  margin: auto auto;
+  max-width: 960px;
+  text-align: center;
+  background: url("/images/hero.png") no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+/* line 28, content/style/partials/_homepage.scss */
+.homepage .hero .more {
+  color: #558090;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+/* line 38, content/style/partials/_homepage.scss */
+.homepage .hero .more label {
+  display: block;
+}
+/* line 42, content/style/partials/_homepage.scss */
+.homepage .hero .more .icon {
+  font-size: 2em;
+  line-height: 30px;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  display: inline-block;
+}
+/* line 58, content/style/partials/_homepage.scss */
+.homepage .details img {
+  width: 100%;
+  padding: 40px;
+}
+/* line 63, content/style/partials/_homepage.scss */
+.homepage .details section {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+/* line 64, content/style/partials/_homepage.scss */
+.homepage .details .lead.collaborate {
+  padding-top: 60px;
+  color: #FF694E;
+}
+/* line 65, content/style/partials/_homepage.scss */
+.homepage .details .lead.create {
+  text-align: right;
+  padding-top: 60px;
+  color: #2E9DC8;
+}
+/* line 66, content/style/partials/_homepage.scss */
+.homepage .details .lead.talk {
+  text-align: center;
+  color: #92CA45;
+}
+/* line 67, content/style/partials/_homepage.scss */
+.homepage .details .lead.disabled {
+  color: #cedde3;
+}
+/* line 69, content/style/partials/_homepage.scss */
+.homepage .details .blue {
+  color: #2E9DC8;
+}
+/* line 70, content/style/partials/_homepage.scss */
+.homepage .details .red {
+  color: #FF694E;
+}
+/* line 71, content/style/partials/_homepage.scss */
+.homepage .details .green {
+  color: #92CA45;
+}
+
+/* line 75, content/style/partials/_homepage.scss */
+.footer-banner {
+  background-color: #2F4750;
+  color: #8eb0bd;
+}
+/* line 79, content/style/partials/_homepage.scss */
+.footer-banner a {
+  color: #aec7d0;
+}
+/* line 83, content/style/partials/_homepage.scss */
+.footer-banner ul li {
+  border-top: 1px solid #426470;
+}
+
+/* line 1, content/style/partials/_reference.scss */
+pre {
+  background-color: #F8F8F8;
+  border: 1px solid #E0E0E0;
+  border-radius: 2px;
+}
+
+/* line 7, content/style/partials/_reference.scss */
+code {
+  background-color: #e9f2f4;
+  color: #2f4750;
+}
+
+/* line 12, content/style/partials/_reference.scss */
+ul {
+  list-style: none;
+}
+
+/* line 16, content/style/partials/_reference.scss */
+.generated-notification {
+  margin-top: 60px;
+}
+
+/* line 20, content/style/partials/_reference.scss */
+table {
+  width: 100%;
+  overflow: auto;
+  display: block;
+  margin: 15px 0;
+  margin-bottom: 56px;
+}
+/* line 27, content/style/partials/_reference.scss */
+table tr {
+  background-color: transparent;
+  vertical-align: inherit;
+}
+/* line 32, content/style/partials/_reference.scss */
+table td {
+  padding: 6px 13px;
+  font-weight: normal;
+  vertical-align: top;
+  text-align: left;
+}
+/* line 39, content/style/partials/_reference.scss */
+table td:first-child {
+  text-align: right;
+}
+/* line 43, content/style/partials/_reference.scss */
+table code {
+  font-size: 14px;
+  color: inherit;
+  background-color: transparent;
+}
+
+/* line 50, content/style/partials/_reference.scss */
+tbody {
+  vertical-align: middle;
+  border-color: inherit;
+}

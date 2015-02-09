@@ -1,0 +1,21 @@
+.repo {
+  background-color: #eff0f2;
+  border-radius: 6px;
+  padding: 14px;
+  margin-bottom: 16px;
+  margin-top: 12px;
+}
+
+.repo .header {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  display: block;
+  font-weight: 700;
+}
+
+.repo p {
+  display: block;
+  height: 80px;
+  margin-bottom: 33px;
+  font-size: 15px;
+}

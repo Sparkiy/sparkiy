@@ -1,0 +1,207 @@
+.snavbar .clearfix:before,
+.snavbar .clearfix:after,
+.snavbar .container:before,
+.snavbar .container:after,
+.snavbar .snav:before,
+.snavbar .snav:after,
+.snavbar .snavbar:before,
+.snavbar .snavbar:after,
+.snavbar .snavbar-header:before,
+.snavbar .snavbar-header:after,
+.snavbar .snavbar-collapse:before,
+.snavbar .snavbar-collapse:after,
+{
+  display: table;
+  content: " ";
+}
+
+.snavbar {
+  font-size: 16px;
+  min-height: 53px;
+  border: none;
+  border-radius: 6px;
+
+  font-family: "Segoe UI",Helvetica,Arial,sans-serif;
+  line-height: 1.72222;
+  color: #2f4750;
+}
+
+.snavbar a {
+  color: #16a085;
+  text-decoration: none;
+  transition: .25s;
+  background-color: transparent;
+}
+
+.snavbar-inverse {
+  background-color: #2f4750;
+  border-color: #080808;
+}
+.snavbar-static-top {
+  z-index: 1000;
+  border-width: 0;
+  border-radius: 0;
+}
+.snavbar .container, .snavbar .container-fluid {
+  padding-left: 21px;
+  padding-right: 21px;
+}
+
+@media (min-width: 768px) {
+  .snavbar .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .snavbar .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .snavbar .container {
+    width: 1170px;
+  }
+}
+
+.snavbar .container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.snavbar-header {
+  float: left;
+  font-weight: lighter;
+}
+
+.snavbar-inverse .snavbar-brand {
+  color: white;
+}
+
+.snavbar-brand {
+  font-size: 24px;
+  line-height: 1.042;
+  padding: 14px 21px;
+  float: left;
+}
+
+.snavbar>.container .snavbar-brand,
+.snavbar>.container-fluid .snavbar-brand {
+  margin-left: -21px;
+}
+
+.snavbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+
+  -webkit-appearance: button;
+  cursor: pointer;
+  text-transform: none;
+  overflow: visible;
+}
+
+.snavbar-inverse .snavbar-toggle {
+  border-color: #333;
+}
+
+.snavbar-toggle {
+  display: none;
+}
+
+.snavbar-toggle {
+  border: none;
+  color: #2f4750;
+  margin: 0 0 0 21px;
+  padding: 0 21px;
+  height: 53px;
+  line-height: 53px;
+}
+
+.snavbar .container>.snavbar-header,
+.snavbar .container-fluid>.snavbar-header,
+.snavbar .container>.snavbar-collapse,
+.snavbar .container-fluid>.snavbar-collapse {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.snavbar-nav {
+  margin: 0;
+  float: left;
+}
+
+.snav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.snavbar-nav>li {
+  float: left;
+}
+.snav>li {
+  position: relative;
+  display: block;
+}
+
+.snav>li>a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+
+.snavbar-nav>li>a {
+  font-size: 16px;
+  padding: 15px 21px;
+  line-height: 23px;
+  font-weight: 700;
+}
+
+.snavbar-inverse .snavbar-nav>li>a {
+  color: white;
+}
+
+.snavbar-inverse .snavbar-nav>li>a.reference:hover,
+.snavbar-inverse .snavbar-nav>li>a.reference:focus {
+  color: #2E9DC8;
+}
+
+.snavbar-inverse .snavbar-nav>.active>a.reference,
+.snavbar-inverse .snavbar-nav>.active>a.reference:hover,
+.snavbar-inverse .snavbar-nav>.active>a.reference:focus {
+  background-color: #2E9DC8;
+  color: white;
+}
+
+.snavbar-inverse .snavbar-nav>li>a.community:hover,
+.snavbar-inverse .snavbar-nav>li>a.community:focus {
+  color: #92CA45;
+}
+
+.snavbar-inverse .snavbar-nav>.active>a.community,
+.snavbar-inverse .snavbar-nav>.active>a.community:hover,
+.snavbar-inverse .snavbar-nav>.active>a.community:focus {
+  background-color: #92CA45;
+  color: white;
+}
+
+.snavbar-inverse .snavbar-nav>li>a.collaborate:hover,
+.snavbar-inverse .snavbar-nav>li>a.collaborate:focus {
+  color: #FF694E;
+}
+
+.snavbar-inverse .snavbar-nav>.active>a.collaborate,
+.snavbar-inverse .snavbar-nav>.active>a.collaborate:hover,
+.snavbar-inverse .snavbar-nav>.active>a.collaborate:focus {
+  background-color: #FF694E;
+  color: white;
+}

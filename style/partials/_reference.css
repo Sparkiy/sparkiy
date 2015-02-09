@@ -1,0 +1,59 @@
+/* line 1, content/style/partials/_reference.scss */
+pre {
+  background-color: #F8F8F8;
+  border: 1px solid #E0E0E0;
+  border-radius: 2px;
+}
+
+/* line 7, content/style/partials/_reference.scss */
+code {
+  background-color: #e9f2f4;
+  color: #2f4750;
+}
+
+/* line 12, content/style/partials/_reference.scss */
+ul {
+  list-style: none;
+}
+
+/* line 16, content/style/partials/_reference.scss */
+.generated-notification {
+  margin-top: 60px;
+}
+
+/* line 20, content/style/partials/_reference.scss */
+table {
+  width: 100%;
+  overflow: auto;
+  display: block;
+  margin: 15px 0;
+  margin-bottom: 56px;
+}
+/* line 27, content/style/partials/_reference.scss */
+table tr {
+  background-color: transparent;
+  vertical-align: inherit;
+}
+/* line 32, content/style/partials/_reference.scss */
+table td {
+  padding: 6px 13px;
+  font-weight: normal;
+  vertical-align: top;
+  text-align: left;
+}
+/* line 39, content/style/partials/_reference.scss */
+table td:first-child {
+  text-align: right;
+}
+/* line 43, content/style/partials/_reference.scss */
+table code {
+  font-size: 14px;
+  color: inherit;
+  background-color: transparent;
+}
+
+/* line 50, content/style/partials/_reference.scss */
+tbody {
+  vertical-align: middle;
+  border-color: inherit;
+}
