@@ -1,0 +1,15 @@
+$sparkiyDark: #2F4750;
+$sparkiyLight: #FFFFFF;
+$sparkiyBlue: #2E9DC8;
+$sparkiyGreen: #92CA45;
+$sparkiyRed: #FF694E;
+
+$subheaderBackgroundReference: $sparkiyBlue;
+$subheaderBackgroundTalk: $sparkiyGreen;
+$subheaderBackgroundCollaborate: $sparkiyRed;
+
+$homepageHeaderBackground: $sparkiyDark;
+$homepageFooterBackground: $sparkiyDark;
+$homepageFooterForeground: adjust-lightness($sparkiyDark, 40%);
+$homepageFooterForegroundLink: adjust-lightness($sparkiyDark, 50%);
+$homepageFooterBorder: adjust-lightness($sparkiyDark, 10%);

@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= @item[:title] %></title>
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/flatui.css">
+    <link rel="stylesheet" href="/style/sparkiy.css">
+    <link rel="stylesheet" href="/css/header.css">
+
+    <!-- you don't need to keep this, but it's cool for stats! -->
+    <meta name="generator" content="nanoc <%= Nanoc::VERSION %>">
+  </head>
+  <body>
+
+    <%= render 'header' %>
+
+    <div>
+      <%= yield %>
+    </div>
+
+    <%= render 'footer' %>
+
+    <script src="/js/html5shiv.js"></script>
+    <script src="/js/respond.js"></script>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/flatui.js"></script>
+    <script src="/js/header.js"></script>
+    <script src="/js/hero.js"></script>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+@import "_colors";
+
+.homepage {
+  .hero {
+    position: relative;
+    color: white;
+
+    height: 800px;
+    background-color: $homepageHeaderBackground;
+
+    .image {
+      // Position it to bottom center
+      position: absolute;
+      top: 0;
+      bottom: 70px;
+      left: 0;
+      right: 0;
+      margin: auto auto;
+
+      max-width: 960px;
+      text-align: center;
+
+      background: url('/images/hero.png') no-repeat;
+      background-size: contain;
+      background-position: center center;
+    }
+
+    .more {
+      color: adjust-lightness($homepageHeaderBackground, 20%);
+
+      // Position it to bottom center
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      text-align: center;
+
+      label {
+        display: block;
+      }
+
+      .icon {
+        font-size: 2em;
+        line-height: 30px;
+
+        // Rotate text
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+
+        display: inline-block;
+      }
+    }
+  }
+
+  .details {
+    img {
+      width: 100%;
+      padding: 40px;
+    }
+
+    section { margin-top: 120px; margin-bottom: 120px; }
+    .lead.collaborate { padding-top: 60px; color: $sparkiyRed; }
+    .lead.create { text-align: right; padding-top: 60px; color: $sparkiyBlue; }
+    .lead.talk { text-align: center; color: $sparkiyGreen; }
+    .lead.disabled { color: adjust-lightness($sparkiyDark, 60%); }
+
+    .blue { color: $sparkiyBlue; }
+    .red { color: $sparkiyRed; }
+    .green { color: $sparkiyGreen; }
+  }
+}
+
+.footer-banner {
+  background-color: $homepageFooterBackground;
+  color: $homepageFooterForeground;
+
+  a {
+    color: $homepageFooterForegroundLink;
+  }
+
+  ul li {
+    border-top: 1px solid $homepageFooterBorder;
+  }
+}

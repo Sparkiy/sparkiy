@@ -4,28 +4,36 @@
       <button type="button" class="snavbar-toggle collapsed" data-toggle="collapse" data-trigger="#snavbar-collapse-01">
         <span class="sr-only">Toggle navigation</span>
       </button>
-      <a class="snavbar-brand" href="//sparkiy.com">Sparkiy</a>
+      <a class="snavbar-brand" href="/">sparkiy</a>
     </div><!-- /.snavbar-header -->
     <div clas="snavbar-collapse collapse" id="snavbar-collapse-01" style="height: 2px;">
       <ul class="snav snavbar-nav">
-        <li>
-          <a class="reference" href="//reference.sparkiy.com">Reference</a>
+        <li <% if @item[:headerActiveClass] == 'reference' %>class="active"<% end %>>
+          <a class="reference" href="/reference">Reference</a>
         </li>
-        <li>
+        <li<% if @item[:headerActiveClass] == 'community' %>class="active"<% end %>>
           <a class="community" href="//talk.sparkiy.com">Talk</a>
         </li>
-        <li class="active">
-          <a class="collaborate" href="//collaborate.sparkiy.com">Collaborate</a>
+        <li <% if @item[:headerActiveClass] == 'collaborate' %>class="active"<% end %>>
+          <a class="collaborate" href="/collaborate">Collaborate</a>
         </li>
       </ul>
     </div><!-- /.snavbar-collapse -->
   </div><!-- /.container -->
 </nav>
 
-<div class="subheader-container">
+<% if !@item[:hideSubheader] %>
+<div class="subheader-container <%= @item[:headerActiveClass] %>">
   <div class="subheader">
     <div class="container">
-      <p>Overview</p>
+      <ul class="breadcrumbs">
+        <% breadcrumbs_trail.each do |crumb_item| %>
+        <% if !crumb_item.nil? && !crumb_item[:title].nil? %>
+        <li><%= link_to_unless_current(crumb_item[:title].split(" --")[0], crumb_item) %></li>
+        <% end %>
+        <% end %>
+      </ul>
     </div>
   </div>
 </div>
+<% end %>

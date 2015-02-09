@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%= @item[:title] %></title>
 
+    <link rel="shortcut icon" href="/favicon.ico" />
+
     <!-- Styles -->
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/css/flatui.css">
+    <link rel="stylesheet" href="/style/sparkiy.css">
     <link rel="stylesheet" href="/css/header.css">
+    <% if !@item[:hideSubheader] %>
     <link rel="stylesheet" href="/css/subheader.css">
+    <% end %>
     <link rel="stylesheet" href="/css/sparkiysyntaxcolors.css">
     <link rel="stylesheet" href="/css/codepanel.css">
     <link rel="stylesheet" href="/css/repo.css">
@@ -25,12 +30,19 @@
       <%= yield %>
     </div>
 
+    <% if @item[:generatorVersion] %>
+      <%= render 'generated' %>
+    <% end %>
+
+    <%= render 'footer' %>
+
     <script src="/js/html5shiv.js"></script>
     <script src="/js/respond.js"></script>
     <script src="/js/jquery.js"></script>
     <script src="/js/bootstrap.js"></script>
     <script src="/js/flatui.js"></script>
     <script src="/js/header.js"></script>
+    <script src="/js/hero.js"></script>
     <script src="/js/highlightlua.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
   </body>

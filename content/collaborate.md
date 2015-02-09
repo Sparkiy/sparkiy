@@ -1,5 +1,6 @@
 ---
-title: Sparkiy Collaborate
+title: Collaborate -- Sparkiy
+headerActiveClass: collaborate
 ---
 
 ##### Collaboration and Support repositories
