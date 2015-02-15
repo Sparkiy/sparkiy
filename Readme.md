@@ -25,8 +25,7 @@ See [wiki](https://github.com/Sparkiy/sparkiy-docs/wiki) pages for more details
 
 | Client platform | status |
 | --------------- | ------ |
-| [Sparkiy MonoGame](https://github.com/Sparkiy/MonoGame) | [![Build status](https://ci.appveyor.com/api/projects/status/al0q6j170okc3qm7/branch/sparkiy?svg=true&pendingText=pending...&passingText=OK&failingText=failed)](https://ci.appveyor.com/project/AleksandarDev/monogame/branch/sparkiy)
- |
+| [Sparkiy MonoGame](https://github.com/Sparkiy/MonoGame) | [![Build status](https://ci.appveyor.com/api/projects/status/al0q6j170okc3qm7/branch/sparkiy?svg=true&pendingText=pending...&passingText=OK&failingText=failed)](https://ci.appveyor.com/project/AleksandarDev/monogame/branch/sparkiy) |
 | [Sparkiy Canvas](https://github.com/Sparkiy/sparkiy-canvas) | [![master build status](https://ci.appveyor.com/api/projects/status/i2x9sa0ov2d3v500/branch/master?svg=true&pendingText=pending...&passingText=OK&failingText=failed)](https://ci.appveyor.com/project/AleksandarDev/sharpdx-toolkit-game-direct2d/branch/master) |
 | [Sparkiy Editor](https://github.com/Sparkiy/sparkiy-editor) | [![master build status](https://ci.appveyor.com/api/projects/status/kj3inj3p2r3bo7oi/branch/master?svg=true&pendingText=pending...&passingText=OK&failingText=failed)](https://ci.appveyor.com/project/AleksandarDev/sparkiy-editor/branch/master) |
 | [Sparkiy Pages](https://github.com/Sparkiy/sparkiy/tree/gh-pages) | [![master build status](https://ci.appveyor.com/api/projects/status/1pbg4vonu0knxijq/branch/gh-pages-source?svg=true&pendingText=pending...&passingText=OK&failingText=failed)](https://ci.appveyor.com/project/AleksandarDev/sparkiycms/branch/gh-pages-source) |
