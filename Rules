@@ -37,6 +37,10 @@ compile '/style/_*/' do
   # do not compile partials
 end
 
+compile '/robots.txt' do
+  # do not compile robots.txt
+end
+
 compile '/' do
   layout 'home'
 end
