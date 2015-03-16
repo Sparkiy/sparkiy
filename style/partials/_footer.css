@@ -1,0 +1,12 @@
+/* line 3, content/style/partials/_footer.scss */
+footer .links a {
+  padding: 5px 10px;
+  background-color: #e1e4e7;
+  color: #9aa4af;
+  border-radius: 2px;
+}
+/* line 9, content/style/partials/_footer.scss */
+footer .links a:hover {
+  background-color: #9aa4af;
+  color: white;
+}
