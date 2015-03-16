@@ -1,0 +1,15 @@
+footer {
+	.links {
+		a {
+			padding: 5px 10px;
+			background-color: adjust-lightness(#9aa4af, 25%);
+			color: #9aa4af;
+			border-radius: 2px;
+
+			&:hover {
+				background-color: #9aa4af;
+				color: white;
+			}
+		}
+	}	
+}
